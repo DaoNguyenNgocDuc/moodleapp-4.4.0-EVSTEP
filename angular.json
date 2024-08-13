@@ -42,8 +42,7 @@
               }
             ],
             "scripts": [],
-            "webWorkerTsConfig": "tsconfig.worker.json",
-            "showCircularDependencies": false
+            "webWorkerTsConfig": "tsconfig.worker.json"
           },
           "configurations": {
             "production": {
