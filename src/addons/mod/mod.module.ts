@@ -38,6 +38,7 @@ import { AddonModUrlModule } from './url/url.module';
 import { AddonModWikiModule } from './wiki/wiki.module';
 import { AddonModWorkshopModule } from './workshop/workshop.module';
 import { AddonModThUrlModule } from './th_url/thurl.module';
+import { AddonModThGlossaryModule } from './thglossary/thglossary.module';
 
 
 @NgModule({
@@ -66,6 +67,7 @@ import { AddonModThUrlModule } from './th_url/thurl.module';
         AddonModWikiModule,
         AddonModWorkshopModule,
         AddonModThUrlModule,
+        AddonModThGlossaryModule,
     ],
 })
 export class AddonModModule {}
