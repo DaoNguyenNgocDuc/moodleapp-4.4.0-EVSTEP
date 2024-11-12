@@ -33,6 +33,7 @@ import { CoreCronDelegate } from '@services/cron';
 import { CoreSiteInfoCronHandler } from '@services/handlers/site-info-cron';
 import { moodleTransitionAnimation } from '@classes/page-transition';
 import { TestingModule } from '@/testing/testing.module';
+import { ThSrcModule } from '@/th_src/th-src.module';
 
 /**
  * For translate loader. AoT requires an exported function for factories.
@@ -49,6 +50,7 @@ export function createTranslateLoader(http: HttpClient): TranslateHttpLoader {
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
+        ThSrcModule,
         IonicModule.forRoot(
             {
                 navAnimation: moodleTransitionAnimation,
