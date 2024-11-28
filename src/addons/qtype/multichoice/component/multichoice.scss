@@ -12,6 +12,7 @@
 
     .d-flex {
         display: flex !important;
+        align-items: center;
     }
 
     .answer {
@@ -29,5 +30,9 @@
             justify-content: space-between;
             align-items: center;
         }
+    }
+
+    .answer div>div.d-flex.w-auto .flex-fill * {
+        line-height: inherit !important;
     }
 }

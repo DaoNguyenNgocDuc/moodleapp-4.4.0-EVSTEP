@@ -1,8 +1,8 @@
 {
     "app_id": "vn.evstep",
     "appname": "EVSTEP",
-    "versioncode": 44304,
-    "versionname": "4.4.3",
+    "versioncode": 44404,
+    "versionname": "4.4.4",
     "cache_update_frequency_usually": 420000,
     "cache_update_frequency_often": 1200000,
     "cache_update_frequency_sometimes": 3600000,
